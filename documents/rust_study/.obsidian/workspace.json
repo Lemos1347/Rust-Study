@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "988db8db9364a043",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3a2c3dbf5f01dcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e99cc117f1428351",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "050e409396ae718c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4dcfab6f7333d967",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "028e530751eb44b2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3798f6b2880bb4ef",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "118779e6b33ff3d6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "87168668b8d4332c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e635d08127d6fb00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4257ff4a7854df1b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "33afc79fbd9f1c2a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "99554c9d54075427",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "df231c26e92a004f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e99cc117f1428351",
+  "lastOpenFiles": [
+    "Mod.md",
+    "Importar funções de outros arquivos.md",
+    "Basic.md",
+    "Functional Language Features - Iterators and Closures.md",
+    "Como criar uma crate.md",
+    "Palavras-chave.md",
+    "advance.md"
+  ]
+}
