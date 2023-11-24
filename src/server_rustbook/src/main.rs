@@ -1,4 +1,4 @@
-use rust_study::ThreadPool;
+use server_rustbook::ThreadPool;
 use std::{
     fs,
     io::{prelude::*, BufReader},
