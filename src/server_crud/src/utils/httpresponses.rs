@@ -1,3 +1,5 @@
+use serde::{Deserialize, Serialize};
+
 pub enum HTTPResponses {
     Sucess,
     Created,
@@ -36,4 +38,9 @@ impl HTTPContentType {
             }
         }
     }
+}
+
+#[derive(Serialize, Deserialize)]
+pub struct JSONResponse {
+    pub message: String,
 }

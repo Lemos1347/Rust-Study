@@ -1,4 +1,5 @@
-mod routes;
+mod user;
+mod utils;
 
 use std::{
     io::{prelude::*, BufReader},
@@ -6,7 +7,8 @@ use std::{
 };
 use dotenv::dotenv;
 
-use routes::user::{handle_get, handle_post};
+// use routes::user::{handle_get, handle_post};
+use user::routes::{user_get, user_post};
 
 use std::collections::HashMap;
 
@@ -17,8 +19,8 @@ fn defining_routes(routes_map: &mut RoutesMap) {
     // Route: /
     let mut map_1: HashMap<&str, HandleRequest> = HashMap::new();
     // Methods: GET, POST
-    map_1.insert("GET", handle_get);
-    map_1.insert("POST", handle_post);
+    map_1.insert("GET", user_get);
+    map_1.insert("POST", user_post);
     routes_map.insert("/", map_1);
 }
 
